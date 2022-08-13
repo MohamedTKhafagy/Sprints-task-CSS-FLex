@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 100px;
+background: bisque;
+    height: 100%;
+
+}
+
+header{
+    background: dodgerblue;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 70px;
+    z-index: 10000;
+}
+
+form{
+    padding-top: 20px;
+}
+
+form .searchbar input[type=text]{
+    padding: 20px;
+    font-size: 17px;
+float: right;
+
+    width: 80%;
+
+}
+form .searchbar button{
+
+    width: 20%;
+    padding: 20px;
+    float: right;
+
+    font-size: 17px;
+
+    /*border-left: none;*/ /* Prevent double borders */
+    cursor: pointer;
+}
+form.searchbar button:hover {
+    background: dodgerblue;
+    outline: 0;
+    border: none;
+
+}
+form.searchbar input:active{
+
+
+
+}
+textarea:focus, input:focus, button:focus{
+   outline: none;
+}
+div form.searchbar{
+    overflow: hidden;
+}
+
+h1{
+    color: black;
+}
+.logo{
+    background: none;
+    padding: 20px 20px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out all .5s;
+    padding: 20px;
+   top: 20px;
+
+
+}
+
+header .navbar a{
+    position: relative;
+    padding: 20px;
+}
+header .navbar a:hover{
+background: aqua;
+    color: black;
+
+
+}
+listed section.description{
+    height: 500px;
+}
+.listed{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+}
+.listed img{
+    size: 40px;
+}
+.description{
+    display: flex;
+    flex-flow: column;
+justify-content: space-between;
+}
+h3{
+    padding-left: 30px;
+    font-family: Cairo;
+}
+.last{
+    padding-bottom: 50px;
+}
+h2{
+    font-family: PT Serif;
+}
+.addtocart {
+   padding-left: 50px;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.lol {
+
+    height: 50px;
+    width: 100px;
+}
+#last{
+    padding-top: 40px;
+}
